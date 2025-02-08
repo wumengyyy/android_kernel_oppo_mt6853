@@ -50,7 +50,7 @@ jobs:
     - name: 下载KernelSU源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace/android-kernel/kernel-4.14
-        curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
+        curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -s next
 
 
     - name: 设置ccache缓存
